@@ -1,3 +1,9 @@
+document.getElementsByClassName("linking")[0].style.color = "black";
+document.getElementsByClassName("linking")[1].style.color = "black";
+
+
+
+
 let but = document.querySelector(".dmodecont");
 
 
@@ -37,9 +43,9 @@ let a19 = document.getElementsByClassName("numcode");
 // CONDITIONALS PROGRAMMING
 // START
 
-but.addEventListener("click" , ()=>{
+but.addEventListener("click", () => {
 
-    if(a1.style.backgroundColor == "var(--dmb2)"){
+    if (a1.style.backgroundColor == "var(--dmb2)") {
         a1.style.backgroundColor = "var(--dmb)";
         a1.style.color = "var(--dmb2)";
 
@@ -52,8 +58,11 @@ but.addEventListener("click" , ()=>{
         document.querySelector(".s1").style.display = "none";
         document.querySelector(".s2").style.display = "none";
 
+        document.getElementsByClassName("linking")[0].style.color = "white";
+        document.getElementsByClassName("linking")[1].style.color = "white";
+
     }
-    else{
+    else {
         a1.style.backgroundColor = "var(--dmb2)";
         a1.style.color = "var(--dmb)";
 
@@ -62,24 +71,27 @@ but.addEventListener("click" , ()=>{
 
         document.querySelector(".s1").style.display = "inline";
         document.querySelector(".s2").style.display = "inline";
+
+        document.getElementsByClassName("linking")[0].style.color = "black";
+        document.getElementsByClassName("linking")[1].style.color = "black";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a2.style.background == "var(--b1)"){
+but.addEventListener("click", () => {
+    if (a2.style.background == "var(--b1)") {
         a2.style.background = "var(--db1)";
 
         a2.style.color = "rgb(215, 215, 215)";
     }
-    else{
+    else {
         a2.style.background = "var(--b1)";
 
         a2.style.color = "black";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a3.style.backgroundColor == "var(--layer)"){
+but.addEventListener("click", () => {
+    if (a3.style.backgroundColor == "var(--layer)") {
         a3.style.background = "transparent";
 
         document.querySelector(".backvid").style.display = "none";
@@ -88,7 +100,7 @@ but.addEventListener("click" , ()=>{
 
         document.body.style.color = "black";
     }
-    else{
+    else {
         a3.style.backgroundColor = "var(--layer)";
 
         document.querySelector(".backvid2").style.display = "none";
@@ -99,157 +111,160 @@ but.addEventListener("click" , ()=>{
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a4.style.backgroundColor == 'aquamarine'){
+but.addEventListener("click", () => {
+    if (a4.style.backgroundColor == 'aquamarine') {
         a4.style.backgroundColor = "black";
     }
-    else{
+    else {
         a4.style.backgroundColor = "aquamarine";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a5.style.backgroundColor == "var(--black)"){
+but.addEventListener("click", () => {
+    if (a5.style.backgroundColor == "var(--black)") {
         a5.style.backgroundColor = "rgb(210 210 210)";
     }
-    else{
+    else {
         a5.style.background = "transparent";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a6.style.backgroundColor == "var(--b3)"){
-        a6.style.backgroundColor = "rgb(222, 222, 222)";
+but.addEventListener("click", () => {
+    if (a6.style.backgroundColor == "var(--b3)") {
+        a6.style.backgroundColor = "var(--db3)";
+
+        document.querySelector(".nb1").style.background = "transparent";
 
     }
-    else{
+    else {
         a6.style.backgroundColor = "var(--b3)";
 
+        document.querySelector(".nb1").style.background = "transparent";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a7.style.background == "var(--b21)"){
+but.addEventListener("click", () => {
+    if (a7.style.background == "var(--b21)") {
         a7.style.background = "var(--db21)";
     }
-    else{
+    else {
         a7.style.background = "var(--b21)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a8.style.background == "var(--b4)"){
+but.addEventListener("click", () => {
+    if (a8.style.background == "var(--b4)") {
         a8.style.background = "var(--db4)";
     }
-    else{
+    else {
         a8.style.background = "var(--b4)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a9.style.background == "var(--b22)"){
+but.addEventListener("click", () => {
+    if (a9.style.background == "var(--b22)") {
         a9.style.background = "var(--db22)";
     }
-    else{
+    else {
         a9.style.background = "var(--b22)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a10.style.background == "var(--b23)"){
+but.addEventListener("click", () => {
+    if (a10.style.background == "var(--b23)") {
         a10.style.background = "var(--db23)";
 
         a10.style.color = "white";
     }
-    else{
+    else {
         a10.style.background = "var(--b23)";
 
         a10.style.color = "black";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a11.style.background == "var(--b24)"){
+but.addEventListener("click", () => {
+    if (a11.style.background == "var(--b24)") {
         a11.style.background = "var(--db24)";
     }
-    else{
+    else {
         a11.style.background = "var(--b24)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a12[0].style.backgroundColor == "var(--box1)"){
+but.addEventListener("click", () => {
+    if (a12[0].style.backgroundColor == "var(--box1)") {
         a12[0].style.backgroundColor = "var(--dbox1)";
         a12[1].style.backgroundColor = "var(--dbox1)";
     }
-    else{
+    else {
         a12[0].style.backgroundColor = "var(--box1)";
         a12[1].style.backgroundColor = "var(--box1)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a13[0].style.backgroundColor == "var(--box2)"){
+but.addEventListener("click", () => {
+    if (a13[0].style.backgroundColor == "var(--box2)") {
         a13[0].style.backgroundColor = "var(--dbox2)";
         a13[1].style.backgroundColor = "var(--dbox2)";
     }
-    else{
+    else {
         a13[0].style.backgroundColor = "var(--box2)";
         a13[1].style.backgroundColor = "var(--box2)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a14[0].style.backgroundColor == "var(--box3)"){
+but.addEventListener("click", () => {
+    if (a14[0].style.backgroundColor == "var(--box3)") {
         a14[0].style.backgroundColor = "var(--dbox3)";
         a14[1].style.backgroundColor = "var(--dbox3)";
     }
-    else{
+    else {
         a14[0].style.backgroundColor = "var(--box3)";
         a14[1].style.backgroundColor = "var(--box3)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a15[0].style.backgroundColor == "var(--box4)"){
+but.addEventListener("click", () => {
+    if (a15[0].style.backgroundColor == "var(--box4)") {
         a15[0].style.backgroundColor = "var(--dbox4)";
         a15[1].style.backgroundColor = "var(--dbox4)";
     }
-    else{
+    else {
         a15[0].style.backgroundColor = "var(--box4)";
         a15[1].style.backgroundColor = "var(--box4)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a16[0].style.backgroundColor == "var(--box5)"){
+but.addEventListener("click", () => {
+    if (a16[0].style.backgroundColor == "var(--box5)") {
         a16[0].style.backgroundColor = "var(--dbox5)";
         a16[1].style.backgroundColor = "var(--dbox5)";
     }
-    else{
+    else {
         a16[0].style.backgroundColor = "var(--box5)";
         a16[1].style.backgroundColor = "var(--box5)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a17.style.backgroundColor == "var(--des2)"){
+but.addEventListener("click", () => {
+    if (a17.style.backgroundColor == "var(--des2)") {
         a17.style.backgroundColor = "var(--ddes2)";
     }
-    else{
+    else {
         a17.style.backgroundColor = "var(--des2)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a18[0].style.background == "var(--sdes2)"){
+but.addEventListener("click", () => {
+    if (a18[0].style.background == "var(--sdes2)") {
         a18[0].style.background = "var(--dsdes2)";
         a18[1].style.background = "var(--dsdes2)";
 
         a18[0].style.color = "white";
         a18[1].style.color = "white";
     }
-    else{
+    else {
         a18[0].style.background = "var(--sdes2)";
         a18[1].style.background = "var(--sdes2)";
 
@@ -258,56 +273,56 @@ but.addEventListener("click" , ()=>{
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(a19[0].style.backgroundColor == "var(--num)"){
+but.addEventListener("click", () => {
+    if (a19[0].style.backgroundColor == "var(--num)") {
         a19[0].style.backgroundColor = "var(--dnum)";
         a19[1].style.backgroundColor = "var(--dnum)";
     }
-    else{
+    else {
         a19[0].style.backgroundColor = "var(--num)";
         a19[1].style.backgroundColor = "var(--num)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(b1[0].style.backgroundColor == "var(--box1)"){
+but.addEventListener("click", () => {
+    if (b1[0].style.backgroundColor == "var(--box1)") {
         b1[0].style.backgroundColor = "var(--dbox1)";
         b1[1].style.backgroundColor = "var(--dbox1)";
     }
-    else{
+    else {
         b1[0].style.backgroundColor = "var(--box1)";
         b1[1].style.backgroundColor = "var(--box1)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(b2[0].style.backgroundColor == "var(--box2)"){
+but.addEventListener("click", () => {
+    if (b2[0].style.backgroundColor == "var(--box2)") {
         b2[0].style.backgroundColor = "var(--dbox2)";
         b2[1].style.backgroundColor = "var(--dbox2)";
     }
-    else{
+    else {
         b2[0].style.backgroundColor = "var(--box2)";
         b2[1].style.backgroundColor = "var(--box2)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(b3[0].style.backgroundColor == "var(--box3)"){
+but.addEventListener("click", () => {
+    if (b3[0].style.backgroundColor == "var(--box3)") {
         b3[0].style.backgroundColor = "var(--dbox3)";
         b3[1].style.backgroundColor = "var(--dbox3)";
     }
-    else{
+    else {
         b3[0].style.backgroundColor = "var(--box3)";
         b3[1].style.backgroundColor = "var(--box3)";
     }
 })
 
-but.addEventListener("click" , ()=>{
-    if(b4[0].style.backgroundColor == "var(--box4)"){
+but.addEventListener("click", () => {
+    if (b4[0].style.backgroundColor == "var(--box4)") {
         b4[0].style.backgroundColor = "var(--dbox4)";
         b4[1].style.backgroundColor = "var(--dbox4)";
     }
-    else{
+    else {
         b4[0].style.backgroundColor = "var(--box4)";
         b4[1].style.backgroundColor = "var(--box4)";
     }
@@ -315,11 +330,11 @@ but.addEventListener("click" , ()=>{
 
 let c = document.querySelector(".heading1");
 
-but.addEventListener("click" , ()=>{
-    if(c.style.backgroundColor == "var(--num)"){
+but.addEventListener("click", () => {
+    if (c.style.backgroundColor == "var(--num)") {
         c.style.backgroundColor = "var(--dnum)";
     }
-    else{
+    else {
         c.style.backgroundColor = "var(--num)";
     }
 })

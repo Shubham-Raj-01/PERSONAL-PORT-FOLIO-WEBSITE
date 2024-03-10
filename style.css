@@ -1264,3 +1264,26 @@ body {
         font-size: x-large;
     }
 }
+
+/* --------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width:490px) {
+
+    .dmodecont {
+        cursor: pointer;
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        position: fixed;
+        top: 80px;
+        right: 53px;
+        z-index: 4;
+        color: var(--dmb);
+        background-color: var(--dmb2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
