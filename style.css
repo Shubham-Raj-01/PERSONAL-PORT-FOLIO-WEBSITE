@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Exo 2", sans-serif;
@@ -157,7 +161,7 @@ body {
         height: 730px;
         filter: blur(2px);
         transform: scale(1);
-        object-fit: fill;
+        object-fit: cover;
         object-position: center center;
         display: inline-block;
     }
@@ -167,7 +171,7 @@ body {
         height: 735px;
         filter: blur(2px);
         transform: scale(1);
-        object-fit: fill;
+        object-fit: cover;
         object-position: center center;
         display: none;
     }
@@ -374,12 +378,10 @@ body {
     .typinganim {
         margin-left: 16px;
         overflow: hidden;
-        animation: type 2.5s ease-in-out 0s 1 forwards alternate;
     }
 
     .cusoranim {
         display: flex;
-        animation: cursor 0.3s ease-in 0s infinite forwards alternate;
     }
 
     @keyframes cursor {
@@ -658,6 +660,7 @@ body {
         gap: 15px;
         font-size: x-large;
     }
+
 }
 
 /* --------------------------------------------------------- */
@@ -747,7 +750,7 @@ body {
         height: 730px;
         filter: blur(2px);
         transform: scale(1);
-        object-fit: fill;
+        object-fit: cover;
         object-position: center center;
         display: inline-block;
     }
@@ -757,7 +760,7 @@ body {
         height: 735px;
         filter: blur(2px);
         transform: scale(1);
-        object-fit: fill;
+        object-fit: cover;
         object-position: center center;
         display: none;
     }
@@ -963,12 +966,10 @@ body {
     .typinganim {
         margin-left: 16px;
         overflow: hidden;
-        animation: type 2.5s ease-in-out 0s 1 forwards alternate;
     }
 
     .cusoranim {
         display: flex;
-        animation: cursor 0.3s ease-in 0s infinite forwards alternate;
     }
 
     @keyframes cursor {
@@ -998,7 +999,7 @@ body {
     }
 
     .lcover {
-        height: 40px;
+        height: 30px;
         width: 100vw;
         position: absolute;
         z-index: -1;
@@ -1006,7 +1007,7 @@ body {
     }
 
     .lcover2 {
-        height: 40px;
+        height: 30px;
         width: 100vw;
         position: absolute;
         z-index: -1;
@@ -1261,8 +1262,9 @@ body {
         justify-content: center;
         align-items: center;
         gap: 15px;
-        font-size: x-large;
+        font-size: 19px;
     }
+
 }
 
 /* --------------------------------------------------------------------------------- */

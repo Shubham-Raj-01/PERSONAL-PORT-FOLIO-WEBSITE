@@ -35,9 +35,9 @@
     </div>
     <div class="contMain" id="n1">
         <div class="vidbk">
-            <video src="pexels-oleg-lehnitsky-7898649 (1080p).mp4" class="backvid" autoplay loop></video>
+            <video src="l vid.mp4" class="backvid" autoplay loop muted></video>
 
-            <video src="D mode video.mp4" class="backvid2" autoplay loop></video>
+            <video src="D mode video final.mp4" class="backvid2" autoplay loop muted></video>
 
         </div>
 
@@ -210,6 +210,9 @@
         </div>
     </div>
 
+
+    <!-- SCRIPTING -->
+
     <script>
 
         var loader = document.getElementById("preloader");
@@ -222,6 +225,10 @@
             ele[0].style.animation = "type 2.5s ease-in-out 0s 1 forwards alternate";
 
             // console.log(ele[0]);
+
+            document.querySelector(".typinganim").style.animation = "type 2.4s steps(10) 0s 1 forwards alternate";
+
+            document.querySelector(".cusoranim").style.animation = "cursor 0.3s ease-in 0s infinite forwards alternate";
         })
     </script>
 

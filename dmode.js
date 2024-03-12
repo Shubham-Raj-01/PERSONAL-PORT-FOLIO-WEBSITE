@@ -112,7 +112,7 @@ but.addEventListener("click", () => {
 })
 
 but.addEventListener("click", () => {
-    if (a4.style.backgroundColor == 'aquamarine') {
+    if (a4.style.backgroundColor == "aquamarine") {
         a4.style.backgroundColor = "black";
     }
     else {
